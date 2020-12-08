@@ -23,7 +23,7 @@ pipeline {
 
      stage('Deploy To Cloudhub') {
       environment {
-        ENVIRONMENT = 'SANDBOX'
+        ENVIRONMENT = 'Sandbox'
         APP_NAME = 'test-jenkins-app'
       }
       steps {
